@@ -53,7 +53,7 @@ const Birthday = ({ targetDate }) => {
   const handleCelebrate = () => {
     setCelebrate(true);
     setTimeout(() => {
-      // navigate("/Ipsita-birthday");
+      navigate("/Ipsita-birthday");
     }, 3000); // Delay navigation to allow animation to complete
   };
 
